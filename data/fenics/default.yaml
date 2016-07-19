@@ -1,0 +1,4 @@
+---
+  fenics::settings:
+    package_name: 'fenics'    
+
