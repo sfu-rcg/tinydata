@@ -10,7 +10,7 @@
       - 'python-ffc'
     repo_url: 'http://ppa.launchpad.net/fenics-packages/fenics/ubuntu'
     key: '2B746472'
-    apt_key_server: 'http://keyserver.ubuntu.com'
+    apt_key_server: 'keyserver.ubuntu.com'
     apt_key_fingerprint: '2C5275D7EF63D9DE2D28D3702940F5212B746472'
     apt_release: 'xenial'
     apt_repos: 'main'
