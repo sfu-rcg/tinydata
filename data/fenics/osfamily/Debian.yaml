@@ -1,13 +1,6 @@
 ---
   fenics::settings:
-    # this will die because tp::repo3 checks whether package_name is a string
-    # before defining Exec['tp_apt_update']. Will fork and fix. 19-Jul-2016
-    package_name:
-      - 'fenics'
-      - 'python-dolfin'
-      - 'dolfin-bin'
-      - 'libdolfin-dev'
-      - 'python-ffc'
+    package_name: 'fenics'
     repo_url: 'http://ppa.launchpad.net/fenics-packages/fenics/ubuntu'
     key: '2B746472'
     apt_key_server: 'keyserver.ubuntu.com'
