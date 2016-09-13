@@ -1,0 +1,3 @@
+---
+putty::settings:
+  package_name: 'putty'

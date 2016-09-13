@@ -1,0 +1,3 @@
+---
+snappy-devel::settings:
+  package_name: 'libsnappy-dev'

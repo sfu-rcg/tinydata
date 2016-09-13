@@ -1,0 +1,10 @@
+---
+ffmpeg-devel::settings:
+  package_name:
+    - libavcodec-dev
+    - libavdevice-dev
+    - libavfilter-dev
+    - libavformat-dev
+    - libavresample-dev
+    - libavutil-dev
+

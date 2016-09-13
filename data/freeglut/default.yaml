@@ -1,0 +1,3 @@
+---
+freeglut::settings:
+  package_name: 'freeglut'

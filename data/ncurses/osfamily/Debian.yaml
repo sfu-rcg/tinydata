@@ -1,0 +1,3 @@
+---
+ncurses::settings:
+  package_name: 'ncurses-base'

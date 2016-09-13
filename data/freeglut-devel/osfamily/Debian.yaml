@@ -1,0 +1,3 @@
+---
+freeglut-devel::settings:
+  package_name: 'freeglut3-dev'

@@ -1,0 +1,3 @@
+---
+tbb-devel::settings:
+  package_name: 'libtbb-dev'

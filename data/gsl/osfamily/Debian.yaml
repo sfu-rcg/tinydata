@@ -1,0 +1,3 @@
+---
+gsl::settings:
+  package_name: 'gsl-bin'

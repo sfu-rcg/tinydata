@@ -1,0 +1,3 @@
+---
+ffmpeg-devel::settings:
+  package_name: 'ffmpeg-devel'

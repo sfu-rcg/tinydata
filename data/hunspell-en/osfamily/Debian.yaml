@@ -1,0 +1,5 @@
+---
+hunspell-en::settings:
+  package_name:
+    - 'hunspell-en-us'
+    - 'hunspell-en-ca'

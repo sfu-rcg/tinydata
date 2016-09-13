@@ -1,0 +1,3 @@
+---
+snappy::settings:
+  package_name: 'libsnappy1v5'

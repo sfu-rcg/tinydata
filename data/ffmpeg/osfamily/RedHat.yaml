@@ -1,0 +1,5 @@
+---
+ffmpeg::settings:
+  package_name: 'ffmpeg'
+  package_install_options:
+    - '--enablerepo': rpmfusion-free-updates

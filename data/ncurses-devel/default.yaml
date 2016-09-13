@@ -1,0 +1,3 @@
+---
+ncurses-devel::settings:
+  package_name: 'ncurses-devel'

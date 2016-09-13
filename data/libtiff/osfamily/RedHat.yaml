@@ -1,0 +1,3 @@
+---
+libtiff::settings:
+  package_name: 'libtiff'

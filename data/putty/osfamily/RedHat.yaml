@@ -1,0 +1,4 @@
+---
+putty::settings:
+  package_install_options:
+    - '--enablerepo': repoforge

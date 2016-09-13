@@ -1,0 +1,5 @@
+---
+ntfsprogs::settings:
+  package_name:
+    - 'libfsntfs-utils'
+    - 'libfsntfs1'

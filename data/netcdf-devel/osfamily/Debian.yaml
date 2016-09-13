@@ -1,0 +1,3 @@
+---
+netcdf-devel::settings:
+  package_name: libnetcdf-dev

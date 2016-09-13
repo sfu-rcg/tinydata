@@ -1,0 +1,3 @@
+---
+libuuid::settings:
+  package_name: 'libuuid1'

@@ -1,0 +1,3 @@
+---
+blas::settings:
+  package_name: 'blas'

@@ -1,0 +1,3 @@
+---
+mono::settings:
+  package_name: 'mono-core'

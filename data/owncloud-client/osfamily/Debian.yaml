@@ -1,0 +1,5 @@
+---
+owncloud-client::settings:
+  key: 'BA684223'
+  apt_repos: '/'
+  apt_key_server: 'http://keyserver.ubuntu.com'

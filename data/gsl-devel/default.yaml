@@ -1,0 +1,3 @@
+---
+gsl-devel::settings:
+  package_name: 'gsl-devel'

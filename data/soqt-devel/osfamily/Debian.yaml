@@ -1,0 +1,3 @@
+---
+soqt-devel::settings:
+  package_name: 'libsoqt4-dev'

@@ -1,0 +1,5 @@
+---
+owncloud-client::settings:
+  key_url: 'http://download.opensuse.org/repositories/isv:/ownCloud:/desktop/RHEL_7/repodata/repomd.xml.key'
+  package_install_options:
+    - '--enablerepo=owncloud-client'

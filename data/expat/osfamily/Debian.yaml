@@ -1,0 +1,3 @@
+---
+expat::settings:
+  package_name: 'libexpat1'

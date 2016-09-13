@@ -1,0 +1,3 @@
+---
+expat-devel::settings:
+  package_name: 'expat-devel'
