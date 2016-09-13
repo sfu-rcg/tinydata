@@ -1,3 +1,4 @@
 ---
 owncloud-client::settings:
   repo_url: 'http://download.opensuse.org/repositories/isv:/ownCloud:/desktop/Ubuntu_16.04/'
+  key_url: 'http://download.opensuse.org/repositories/isv:/ownCloud:/desktop/Ubuntu_16.04/Release.key'
