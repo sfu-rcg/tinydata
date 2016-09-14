@@ -1,5 +1,5 @@
 ---
 owncloud-client::settings:
-  key: '977C43A8BA684223'
+  key: 'F9EA4996747310AE79474F44977C43A8BA684223'
   apt_repos: '/'
   apt_key_server: 'keyserver.ubuntu.com'
