@@ -1,4 +1,4 @@
 ---
 ffmpeg::settings:
   package_install_options:
-    - '--enablerepo': 'nux_dextop'
+    - '--enablerepo': 'nux-dextop'
