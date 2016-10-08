@@ -1,0 +1,9 @@
+---
+  pycharm::settings:
+    package_name: 'pycharm-community'
+    repo_url: 'http://ppa.launchpad.net/mystic-mirage/pycharm/ubuntu'
+    key: 'A7E2BCD2'
+    apt_key_server: 'keyserver.ubuntu.com'
+    apt_key_fingerprint: 'F8D6013A2FE38A80300EE40CDD969F10A7E2BCD2'
+    apt_repos: 'main'
+    apt_include_src: false

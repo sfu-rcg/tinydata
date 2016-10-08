@@ -1,0 +1,10 @@
+---
+  mendeleydesktop::settings:
+    package_name: 'mendeleydesktop'
+    repo_url: 'http://desktop-download.mendeley.com/download/apt'
+    key: '6F036044'
+    apt_key_server: 'keyserver.ubuntu.com'
+    apt_key_fingerprint: '26BB02191EF4588D3A7BC30FD800C7D66F036044'
+    apt_release: 'stable'
+    apt_repos: 'main'
+    apt_include_src: false
