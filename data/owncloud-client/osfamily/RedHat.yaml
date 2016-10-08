@@ -1,7 +1,5 @@
 ---
 owncloud-client::settings:
-  key_url: |+
-    'http://download.opensuse.org/repositories/isv:/ownCloud:/desktop/RHEL_7/repodata/repomd.xml.key'
-    '      http://download.opensuse.org/repositories/isv:/ownCloud:/community:/7.0/CentOS_CentOS-7//repodata/repomd.xml.key'
+  key_url: "http://download.opensuse.org/repositories/isv:/ownCloud:/desktop/RHEL_7/repodata/repomd.xml.key\n   http://download.opensuse.org/repositories/isv:/ownCloud:/community:/7.0/CentOS_CentOS-7//repodata/repomd.xml.key"
   package_install_options:
     - '--enablerepo=owncloud-client'
