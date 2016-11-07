@@ -1,0 +1,8 @@
+---
+  cryptsetup::settings:
+    package_name:
+      - cryptmount
+      - cryptsetup
+      - cryptsetup-bin
+      - libcryptsetup-dev
+      - libcryptsetup4
