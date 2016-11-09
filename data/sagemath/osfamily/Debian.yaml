@@ -1,0 +1,10 @@
+---
+  sagemath::settings:
+    package_name: 'sagemath-upstream-binary'
+    repo_url: 'http://ppa.launchpad.net/aims/sagemath/ubuntu'
+    key: 'BE796FF2'
+    apt_key_server: 'keyserver.ubuntu.com'
+    apt_key_fingerprint: 'C5ACDE79014125D8F25B843ABDCB16CCBE796FF2'
+    apt_release: 'xenial'
+    apt_repos: 'main'
+    apt_include_src: false

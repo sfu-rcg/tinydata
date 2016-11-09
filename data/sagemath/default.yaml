@@ -1,0 +1,3 @@
+---
+  sagemath::settings:
+    package_name: 'sagemath-upstream-binary'
