@@ -1,0 +1,7 @@
+---
+  okular::settings:
+    package_name:
+      - okular
+      - okular-backend-odp
+      - okular-dev
+      - okular-extra-backends
