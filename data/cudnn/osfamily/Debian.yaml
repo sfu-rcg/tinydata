@@ -1,0 +1,13 @@
+---
+  cudnn::settings:
+    package_name:
+      - libcudnn5
+      - libcudnn5-dev
+      - libcudnn5-doc     
+    repo_url: 'http://mirror.its.sfu.ca/mirror/ubuntu-third-party/cudnn'
+    key_url: 'http://mirror.its.sfu.ca/mirror/ubuntu-third-party/cudnn/repo_pub.gpg'
+    key: 'F990CABB'
+    apt_key_fingerprint: '209A2893C7A1CDD0EA0557F06D3B0903F990CABB'
+    apt_release: 'xenial'
+    apt_repos: 'main'
+    apt_include_src: false
