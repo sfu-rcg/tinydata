@@ -1,0 +1,3 @@
+---
+  pandoc::settings:
+    package_name: pandoc
