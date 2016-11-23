@@ -1,5 +1,5 @@
 ---
   zsh::settings:
-      package_name:
+    package_name:
       - zsh
       - zsh-dev
