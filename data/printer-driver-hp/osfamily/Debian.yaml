@@ -1,0 +1,6 @@
+---
+  printer-driver-hp::settings:
+    package_name:
+      - printer-driver-hpcups
+      - printer-driver-hpijs
+      - hpijs-ppds
