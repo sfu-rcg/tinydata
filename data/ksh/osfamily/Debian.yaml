@@ -1,0 +1,3 @@
+---
+  ksh::settings:
+    package_name: 'ksh'
