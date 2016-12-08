@@ -1,0 +1,6 @@
+---
+  tightvnc::settings:
+    package_name:
+      - tightvncserver
+      - xtightvncviewer
+      - libvncclient1
