@@ -1,0 +1,3 @@
+---
+  filezilla::settings:
+    package_name: 'filezilla'
