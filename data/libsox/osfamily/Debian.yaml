@@ -1,0 +1,6 @@
+---
+  libsox::settings:
+    package_name:
+      - libsox-dev
+      - libsox2
+      - libsox-fmt-all

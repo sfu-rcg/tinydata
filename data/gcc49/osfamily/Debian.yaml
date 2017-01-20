@@ -1,0 +1,5 @@
+---
+  gcc49::settings:
+    package_name:
+      - g++-4.9
+      - gcc-4.9

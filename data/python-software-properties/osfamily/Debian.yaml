@@ -1,0 +1,3 @@
+---
+  python-software-properties::settings:
+    package_name: 'python-software-properties'
