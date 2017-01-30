@@ -1,0 +1,5 @@
+---
+  liblapacke::settings:
+    package_name:
+      - liblapacke
+      - liblapacke-dev
