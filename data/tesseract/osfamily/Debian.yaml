@@ -1,0 +1,6 @@
+---
+  tesseract::settings:
+    package_name:
+      - tesseract-ocr
+      - libtesseract-dev
+      - libleptonica-dev

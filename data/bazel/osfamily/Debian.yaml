@@ -1,7 +1,7 @@
 ---
   bazel::settings:
     package_name: 'bazel'
-    repo_url: ' http://storage.googleapis.com/bazel-apt'
+    repo_url: 'http://storage.googleapis.com/bazel-apt'
     key: '48457EE0'
     apt_key_server: 'keyserver.ubuntu.com'
     apt_key_fingerprint: '71A1D0EFCFEB6281FD0437C93D5919B448457EE0'
