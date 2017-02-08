@@ -1,0 +1,13 @@
+---
+  subversion::settings:
+    package_name:
+      - subversion
+      - subversion-tools
+      - svn2cl
+      - svn-all-fast-export
+      - svnmailer
+      - svn-workbench
+      - statsvn
+      - subcommander
+      - subcommander-doc
+      - rapidsvn
