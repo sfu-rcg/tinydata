@@ -1,0 +1,3 @@
+---
+  rdesktop::settings:
+    package_name: 'rdesktop'
