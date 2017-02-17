@@ -1,0 +1,10 @@
+---
+  macaulay::settings:
+    package_name: 'macaulay2'
+    repo_url: 'http://www.math.uiuc.edu/Macaulay2/Repositories/Ubuntu'
+    key_url: 'http://www.math.uiuc.edu/Macaulay2/PublicKeys/Macaulay2-key'
+    apt_key_server: 'keys.gnupg.net'
+    apt_key_fingerprint: 'CD9C0E09B0C780943A1AD85553F8BD99F40DCB31'
+    apt_release: 'xenial'
+    apt_repos: 'main'
+    apt_include_src: false
