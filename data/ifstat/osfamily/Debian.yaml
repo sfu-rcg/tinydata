@@ -1,0 +1,3 @@
+---
+  ifstat::settings:
+    package_name: 'ifstat'
