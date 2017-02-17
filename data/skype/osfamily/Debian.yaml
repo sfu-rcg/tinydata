@@ -1,0 +1,10 @@
+---
+  skype::settings:
+    package_name: 'skype'
+    repo_url: 'http://archive.canonical.com/ubuntu'
+    key: ''
+    apt_key_fingerprint: ''
+    apt_release: 'xenial'
+    apt_key_server: 'keyserver.ubuntu.com'
+    apt_repos: 'partner'
+    apt_include_src: false
