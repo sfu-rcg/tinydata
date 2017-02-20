@@ -1,0 +1,6 @@
+---
+  suckless::settings:
+    package_name:
+      - suckless-tools
+      - surf
+      - stterm
