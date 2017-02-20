@@ -1,0 +1,17 @@
+---
+  gimp::settings:
+    package_name:
+      - gimp
+      - gimp-data
+      - gimp-data-extras
+      - gimp-dcraw
+      - gimp-dds
+      - gimp-gap
+      - gimp-gluas
+      - gimp-gmic
+      - gimp-help-common
+      - gimp-help-en
+      - gimp-lensfun
+      - gimp-normalmap
+      - gimp-plugin-registry
+      - gimp-texturize
