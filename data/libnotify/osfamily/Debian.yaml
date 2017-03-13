@@ -1,5 +1,5 @@
 ---
   libnotify::settings:
     package_name:
-      - libnotify
+      - libnotify-bin
       - libnotify-dev
