@@ -1,0 +1,5 @@
+---
+  hplip::settings:
+    package_name:
+      - hplip
+      - hplip-common
