@@ -1,0 +1,3 @@
+---
+  systemd-networkd::settings:
+    package_name: 'systemd-networkd'
