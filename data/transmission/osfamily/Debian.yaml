@@ -1,0 +1,3 @@
+---
+  transmission::settings:
+    package_name: 'transmission-gtk'
