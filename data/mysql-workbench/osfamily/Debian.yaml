@@ -1,0 +1,10 @@
+---
+  mysql-workbench::settings:
+    package_name: 'mysql-workbench'
+    repo_url: 'http://repo.mysql.com/apt/ubuntu/'
+    key: '5072E1F5'
+    apt_key_server: 'keyserver.ubuntu.com'
+    apt_key_fingerprint: 'A4A9406876FCBD3C456770C88C718D3B5072E1F5'
+    apt_release: 'xenial'
+    apt_repos: 'main'
+    apt_include_src: false
