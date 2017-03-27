@@ -1,0 +1,3 @@
+---
+  v4l-ctl::settings:
+    package_name: 'v4l-utils'

@@ -1,0 +1,3 @@
+---
+  gvim::settings:
+    package_name: 'vim-X11'
