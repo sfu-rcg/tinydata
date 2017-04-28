@@ -1,0 +1,3 @@
+---
+  jnettop::settings:
+    package_name: 'jnettop'
