@@ -1,0 +1,3 @@
+---
+  update-motd::settings:
+    package_name: 'update-motd'
