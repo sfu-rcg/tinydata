@@ -1,5 +1,5 @@
 ---
   libass::settings:
     package_name:
-      - libass
+      - libass5
       - libass-dev
