@@ -1,0 +1,5 @@
+---
+  libass::settings:
+    package_name:
+      - libass
+      - libass-dev
