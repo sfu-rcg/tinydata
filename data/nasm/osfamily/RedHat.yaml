@@ -1,0 +1,3 @@
+---
+  nasm::settings:
+    package_name: 'nasm'
