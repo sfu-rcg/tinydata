@@ -1,0 +1,5 @@
+---
+  libxvid::settings:
+    package_name:
+      - libxvidcore4
+      - libxvidcore-dev

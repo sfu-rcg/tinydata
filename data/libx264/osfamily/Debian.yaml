@@ -1,0 +1,5 @@
+---
+  libx264::settings:
+    package_name:
+      - libx264-14
+      - libx264-dev

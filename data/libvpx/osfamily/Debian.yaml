@@ -1,0 +1,5 @@
+---
+  libvpx::settings:
+    package_name:
+      - libvpx3
+      - libvpx-dev
