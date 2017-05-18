@@ -1,0 +1,5 @@
+---
+  libmp3lame::settings:
+    package_name:
+      - libmp3lame0
+      - libmp3lame-dev

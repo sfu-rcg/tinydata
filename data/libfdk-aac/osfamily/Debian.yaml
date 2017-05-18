@@ -1,0 +1,5 @@
+---
+  libfdk-aac::settings:
+    package_name:
+      - libfdk-aac0
+      - libfdk-aac-dev
