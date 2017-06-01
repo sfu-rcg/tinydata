@@ -1,0 +1,137 @@
+#!/usr/bin/env python
+
+'''
+genpkg: Generate quick and dirty Tiny Data package definitions
+
+ v0.01  31-May-2017  BEGIN
+
+blame warren@sfu.ca
+'''
+
+import argparse
+import os
+import re
+import sys
+
+
+TMPL_DEFAULT  = ['---', '  __DIRNAME__::settings:']
+TMPL_OSFAMILY = ['---', '  __DIRNAME__::settings:',
+                 '    package_name: ''']
+
+
+def get_cli_args():
+    p = argparse.ArgumentParser(
+        prog='genpkg',
+        description='Quick and dirty Tiny Data package definitions')
+    # p.add_argument('--osfamily', '-o', dest='osfamily',
+    #                action='store',
+    #                metavar='redhat,debian,all',
+    #                default='debian',
+    #                nargs='+', # at least one
+    #                required='true')
+    p.add_argument('--dir', '-d', dest='dirname',
+                   action='store',
+                   metavar='ztk')
+    p.add_argument('pkgs', metavar='ztk2 ztk2-devel ...',
+               default=None,
+               nargs='+', help='Package(s) to create definitions for')
+    if len(sys.argv) < 2:
+        p.print_help()
+        exit(1)
+    return vars(p.parse_args())
+
+
+def list_to_file(in_list=None, pathname=None):
+    ''' Overwrite file at `pathname' with list data '''
+    if isinstance(in_list, list) is False:
+        raise Exception('list_to_file passed a non-list data type')
+    blob = "\n".join(in_list)
+    blob += "\n"
+    fout = open(pathname, 'w')
+    fout.write(blob)
+    fout.close()
+    print ('> ' + pathname)
+    return
+
+
+def create_dirs(args=None, td_root=None):
+    target_dir = '{0}/data/{1}'.format(td_root, args['dirname'])
+    try:
+        if os.stat(target_dir):
+            print(target_dir + ' already exists. Terminating.')
+            exit(1)
+    except OSError:  # doesn't exist
+        os.mkdir(target_dir, 0775)
+        print('mkdir ' + target_dir)
+    target_dir = '{0}/data/{1}/osfamily'.format(td_root, args['dirname'])
+    os.mkdir(target_dir, 0775)
+    return
+
+
+def create_defaults_yaml(args=None, td_root=None):
+    defaults_list = []
+    for line in TMPL_DEFAULT:
+        processed_line = re.sub('__DIRNAME__', args['dirname'], line)
+        defaults_list.append(processed_line)
+    target_file = '{0}/data/{1}/defaults.yaml'.format(td_root,
+                                                      args['dirname'])
+    list_to_file(in_list=defaults_list, pathname=target_file)
+    return
+
+
+def create_osfamily_yaml(args=None, td_root=None):
+    osf_list = []
+    for line in TMPL_OSFAMILY:
+        processed_line = re.sub('__DIRNAME__', args['dirname'], line)
+        osf_list.append(processed_line)
+    osf_list = append_pkgs(osf_list)
+    for osf in args['os']:
+        target_file = '{0}/data/{1}/osfamily/{2}.yaml'.format(
+            td_root,
+            args['dirname'],
+            osf)
+        list_to_file(in_list=osf_list, pathname=target_file)
+    return
+
+
+def append_pkgs(in_list=None):
+    ''' if single package, add package name in quotes
+        if multiple packages, add on new lines prefixed by 6 spaces and a dash
+    '''
+    pkgs = args['pkgs']
+    if len(pkgs) == 1:
+        # adjust last item in list
+        in_list[-1] = in_list[-1] + "'{0}'".format(pkgs[0])
+    else:
+        for pkg in pkgs:
+            in_list.append('      - {0}'.format(pkg))
+    return in_list
+
+
+def create_manifests(args=None, td_root=None):
+    create_defaults_yaml(args=args, td_root=td_root)
+    create_osfamily_yaml(args=args, td_root=td_root)
+    return
+
+
+def set_default_dirname(args=None):
+    # if no dirname parameter has been specified, use the 1st package name
+    if args['dirname'] is None or args['dirname'] == '':
+        args['dirname'] = args['pkgs'][0]
+    # otherwise, use the dirname specified
+    return args
+
+
+def main(args=None):
+    # get parent dir of this script
+    td_root = os.path.dirname(os.path.abspath(__file__))
+    create_dirs(args=args, td_root=td_root)
+    create_manifests(args=args, td_root=td_root)
+    return
+
+
+if __name__ == "__main__":
+    args = get_cli_args()
+    args = set_default_dirname(args)
+    args['os'] = ['Debian', 'RedHat']
+    main(args)
