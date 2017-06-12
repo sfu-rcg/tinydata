@@ -1,0 +1,5 @@
+---
+  openbox::settings:
+    package_name: 
+      - openbox
+      - openbox-dev
