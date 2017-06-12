@@ -1,5 +1,0 @@
----
-owncloud-client::settings:
-  package_name:
-    - owncloud-client
-    - owncloud-client-cmd
