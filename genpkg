@@ -3,6 +3,8 @@
 '''
 genpkg: Generate quick and dirty Tiny Data package definitions
 
+ v0.02  12-Jun-2017  Fixed: forgot to populate default hiera.yaml. See?
+                     This is why I made a script. Aargh.
  v0.01  31-May-2017  BEGIN
 
 blame warren@sfu.ca
@@ -14,6 +16,8 @@ import re
 import sys
 
 
+TMPL_HIERA    = ['---', ' :hierarchy:', '   - "%{title}/osfamily/%{osfamily}"',
+                 '   - "%{title}/default"', '   - default']
 TMPL_DEFAULT  = ['---', '  __DIRNAME__::settings:']
 TMPL_OSFAMILY = ['---', '  __DIRNAME__::settings:',
                  '    package_name: ''']
@@ -94,6 +98,12 @@ def create_osfamily_yaml(args=None, td_root=None):
     return
 
 
+def create_hiera_yaml(args=None, td_root=None):
+    target_file = '{0}/data/{1}/hiera.yaml'.format(td_root, args['dirname'])
+    list_to_file(in_list=TMPL_HIERA, pathname=target_file)
+    return
+
+
 def append_pkgs(in_list=None):
     ''' if single package, add package name in quotes
         if multiple packages, add on new lines prefixed by 6 spaces and a dash
@@ -111,6 +121,7 @@ def append_pkgs(in_list=None):
 def create_manifests(args=None, td_root=None):
     create_defaults_yaml(args=args, td_root=td_root)
     create_osfamily_yaml(args=args, td_root=td_root)
+    create_hiera_yaml(args=args, td_root=td_root)
     return
 
 
