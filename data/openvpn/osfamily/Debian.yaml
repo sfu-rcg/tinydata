@@ -1,4 +1,5 @@
 ---
   openvpn::settings:
-    process_user: 'nobody'
-    init_file_path: '/etc/default/openvpn'
+    package_name: 
+      - openvpn
+      - gadmin-openvpn-client
