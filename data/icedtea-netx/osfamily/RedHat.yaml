@@ -1,0 +1,3 @@
+---
+  icedtea-netx::settings:
+    package_name: 'icedtea-netx'
