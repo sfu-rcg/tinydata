@@ -1,0 +1,5 @@
+---
+  libgsl::settings:
+    package_name:
+      - libgsl2
+      - libgsl-dev
