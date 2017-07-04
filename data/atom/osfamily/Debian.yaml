@@ -1,0 +1,10 @@
+---
+  atom::settings:
+    package_name: 'atom'
+    repo_url: 'http://ppa.launchpad.net/webupd8team/atom/ubuntu'
+    key: 'EEA14886'
+    apt_key_server: 'keyserver.ubuntu.com'
+    apt_key_fingerprint: '7B2C3B0889BF5709A105D03AC2518248EEA14886'
+    apt_release: 'xenial'
+    apt_repos: 'main'
+    apt_include_src: false
