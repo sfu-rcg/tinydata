@@ -1,0 +1,3 @@
+---
+  apt-transport-https::settings:
+    package_name: 'apt-transport-https'
