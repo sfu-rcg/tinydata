@@ -1,0 +1,3 @@
+---
+  ncdu::settings:
+    package_name: 'ncdu'
