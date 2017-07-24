@@ -1,0 +1,3 @@
+---
+  aptitude::settings:
+    package_name: 'aptitude'
