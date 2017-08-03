@@ -1,0 +1,3 @@
+---
+  ncbi-blast::settings:
+    package_name: 'ncbi-blast+'
