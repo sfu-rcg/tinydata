@@ -1,0 +1,3 @@
+---
+  cpuburn::settings:
+    package_name: 'cpuburn'
