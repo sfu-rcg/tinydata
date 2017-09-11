@@ -1,5 +1,4 @@
 ---
   owncloud-client::settings:
-    package_name: 
+    package_name:
       - owncloud-client
-      - owncloud-client-cmd
