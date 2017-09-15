@@ -1,0 +1,3 @@
+---
+  isomaster::settings:
+    package_name: 'isomaster'
