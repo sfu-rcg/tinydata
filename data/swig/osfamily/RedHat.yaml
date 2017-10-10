@@ -1,0 +1,5 @@
+---
+  swig::settings:
+    package_name: 
+      - swig
+      - swig-doc
