@@ -1,0 +1,5 @@
+---
+  libglew::settings:
+    package_name: 
+      - glew
+      - glew-devel
