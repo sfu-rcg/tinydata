@@ -1,5 +1,5 @@
 ---
   libglew::settings:
     package_name: 
-      - libglew
+      - libglew1.13
       - libglew-dev
