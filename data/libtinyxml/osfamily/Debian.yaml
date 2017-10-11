@@ -1,0 +1,4 @@
+---
+  libtinyxml::settings:
+    package_name: 
+      - libtinyxml2-dev
