@@ -1,0 +1,4 @@
+---
+  libassimp::settings:
+    package_name: 
+      - libassimp-dev
