@@ -1,0 +1,3 @@
+---
+  nfstrace::settings:
+    package_name: 'nfstrace'
