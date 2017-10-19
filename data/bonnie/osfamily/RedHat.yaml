@@ -1,0 +1,4 @@
+---
+  bonnie::settings:
+    package_name:
+      - bonnie++
