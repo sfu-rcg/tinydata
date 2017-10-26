@@ -1,0 +1,3 @@
+---
+  xemacs::settings:
+    package_name: 'xemacs21'
