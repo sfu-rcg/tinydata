@@ -1,0 +1,6 @@
+---
+  kwallet::settings:
+    package_name:
+      - libpam-kwallet4
+      - libpam-kwallet5
+      - libkf5wallet5
