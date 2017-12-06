@@ -1,0 +1,3 @@
+---
+  nautilus-actions::settings:
+    package_name: 'nautilus-actions'
