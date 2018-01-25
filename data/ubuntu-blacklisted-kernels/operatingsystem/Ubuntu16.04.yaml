@@ -1,0 +1,7 @@
+---
+  ubuntu-blacklisted-kernels::settings:
+    package_name:
+      - linux-headers-4.4.0-112
+      - linux-headers-4.4.0-112-generic
+      - linux-image-4.4.0-112-generic
+      - linux-image-extra-4.4.0-112-generic

@@ -1,0 +1,7 @@
+---
+  ubuntu-whitelisted-kernels::settings:
+    package_name:
+      - linux-headers-4.4.0-109
+      - linux-headers-4.4.0-109-generic
+      - linux-image-4.4.0-109-generic
+      - linux-image-extra-4.4.0-109-generic
