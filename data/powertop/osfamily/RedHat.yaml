@@ -1,0 +1,3 @@
+---
+  powertop::settings:
+    package_name: 'powertop'
