@@ -1,0 +1,3 @@
+---
+  memtester::settings:
+    package_name: 'memtester'
