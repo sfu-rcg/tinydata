@@ -1,0 +1,3 @@
+---
+  bwm-ng::settings:
+    package_name: 'bwm-ng'
