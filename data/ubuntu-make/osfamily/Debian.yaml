@@ -1,0 +1,3 @@
+---
+  ubuntu-make::settings:
+    package_name: 'ubuntu-make'
