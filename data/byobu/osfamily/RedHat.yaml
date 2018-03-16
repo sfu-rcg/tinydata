@@ -1,0 +1,3 @@
+---
+  byobu::settings:
+    package_name: 'byobu'
