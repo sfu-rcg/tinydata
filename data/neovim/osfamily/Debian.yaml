@@ -1,0 +1,10 @@
+---
+  neovim::settings:
+    package_name: 'neovim'
+    repo_url: 'http://ppa.launchpad.net/neovim-ppa/stable/ubuntu'
+    key: '8231B6DD'
+    apt_key_server: 'keyserver.ubuntu.com'
+    apt_key_fingerprint: '9DBB0BE9366964F134855E2255F96FCF8231B6DD'
+    apt_release: 'xenial'
+    apt_repos: 'main'
+    apt_include_src: false
