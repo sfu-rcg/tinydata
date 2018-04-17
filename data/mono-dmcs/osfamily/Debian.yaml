@@ -1,0 +1,5 @@
+---
+  mono-dmcs::settings:
+    package_name:
+      - mono-dmcs
+      - mono-devel
