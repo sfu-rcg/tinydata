@@ -1,0 +1,3 @@
+---
+  mono-xbuild::settings:
+    package_name: 'mono-xbuild'
