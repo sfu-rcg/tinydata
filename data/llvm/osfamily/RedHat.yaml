@@ -1,0 +1,3 @@
+---
+  llvm::settings:
+    package_name: 'llvm'
