@@ -1,0 +1,5 @@
+---
+  libmatio2::settings:
+    package_name:
+      - libmatio2
+      - libmatio-dev
