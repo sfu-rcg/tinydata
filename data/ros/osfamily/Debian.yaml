@@ -1,0 +1,10 @@
+---
+  ros::settings:
+    package_name: 'ros-kinetic-desktop-full'
+    repo_url: 'http://packages.ros.org/ros/ubuntu'
+    key: 'B01FA116'
+    apt_key_server: 'ha.pool.sks-keyservers.net'
+    apt_key_fingerprint: '421C365BD9FF1F717815A3895523BAEEB01FA116'
+    apt_release: 'xenial'
+    apt_repos: 'main'
+    apt_include_src: false
