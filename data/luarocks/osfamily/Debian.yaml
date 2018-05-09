@@ -1,0 +1,3 @@
+---
+  luarocks::settings:
+    package_name: 'luarocks'
