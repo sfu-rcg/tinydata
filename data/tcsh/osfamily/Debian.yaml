@@ -1,0 +1,3 @@
+---
+  tcsh::settings:
+    package_name: 'tcsh'
