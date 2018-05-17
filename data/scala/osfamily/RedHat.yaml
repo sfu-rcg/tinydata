@@ -1,0 +1,3 @@
+---
+  scala::settings:
+    package_name: 'scala'
