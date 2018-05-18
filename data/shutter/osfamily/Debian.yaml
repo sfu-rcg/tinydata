@@ -1,0 +1,3 @@
+---
+  shutter::settings:
+    package_name: 'shutter'
