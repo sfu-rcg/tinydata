@@ -1,0 +1,3 @@
+---
+  meshlab::settings:
+    package_name: 'meshlab'
