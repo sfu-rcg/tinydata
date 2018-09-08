@@ -1,0 +1,3 @@
+---
+  workrave::settings:
+    package_name: 'workrave'
