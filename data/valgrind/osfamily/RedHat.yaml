@@ -1,0 +1,3 @@
+---
+  valgrind::settings:
+    package_name: 'valgrind'
