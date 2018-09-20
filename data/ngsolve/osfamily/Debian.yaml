@@ -1,0 +1,10 @@
+---
+  ngsolve::settings:
+    package_name: 'ngsolve'
+    repo_url: 'http://ppa.launchpad.net/ngsolve/ngsolve/ubuntu'
+    key: 'D58F7155'
+    apt_key_server: 'keyserver.ubuntu.com'
+    apt_key_fingerprint: 'E00364B13C085B7C1D09355BB318C73BD58F7155'
+    apt_release: 'xenial'
+    apt_repos: 'main'
+    apt_include_src: false
