@@ -6,3 +6,8 @@
       - libqt5svg5-dev
       - libqt5webkit5-dev
       - libqt5webkit5
+      - libqt5x11extras5
+      - libqt5x11extras5-dev
+      - qttools5-dev
+      - qttools5-dev-tools
+      - qttools5-private-dev
