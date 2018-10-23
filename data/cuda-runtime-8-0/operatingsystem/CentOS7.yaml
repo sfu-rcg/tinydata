@@ -1,6 +1,8 @@
 ---
-  cuda::settings:
-    package_name: 'cuda-runtime-8-0'
+  cuda-runtime-8-0::settings:
+    package_name:
+      - cuda-runtime-8-0
+      - cuda-toolkit-8-0
     repo_url: 'https://mirror.its.sfu.ca/mirror/cuda/repos/rhel7/x86_64'
     key: '7FA2AF80'
     key_url: 'https://mirror.its.sfu.ca/mirror/cuda/repos/rhel7/x86_64/7fa2af80.pub'

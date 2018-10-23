@@ -1,5 +1,5 @@
 ---
-  cuda::settings:
+  cuda-9-1::settings:
     package_name: 'cuda-9-1'
     repo_url: 'https://mirror.its.sfu.ca/mirror/cuda/repos/rhel7/x86_64'
     key: '7FA2AF80'
