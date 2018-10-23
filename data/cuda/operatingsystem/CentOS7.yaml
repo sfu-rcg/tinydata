@@ -1,6 +1,6 @@
 ---
   cuda::settings:
     package_name: 'cuda'
-    repo_url: 'http://developer.download.nvidia.com/compute/cuda/repos/rhel7/x86_64'
+    repo_url: 'https://mirror.its.sfu.ca/mirror/cuda/repos/rhel7/x86_64'
     key: '7FA2AF80'
-    key_url: 'http://developer.download.nvidia.com/compute/cuda/repos/rhel7/x86_64/7fa2af80.pub'
+    key_url: 'https://mirror.its.sfu.ca/mirror/cuda/repos/rhel7/x86_64/7fa2af80.pub'
