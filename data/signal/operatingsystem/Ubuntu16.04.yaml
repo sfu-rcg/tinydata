@@ -1,0 +1,10 @@
+---
+  signal::settings:
+    package_name: 'signal-desktop'
+    repo_url: 'https://updates.signal.org/desktop/apt'
+    key: '57F6FB06'
+    apt_key_server: 'keyserver.ubuntu.com'
+    apt_key_fingerprint: 'DBA36B5181D0C816F630E889D980A17457F6FB06'
+    apt_release: 'xenial'
+    apt_repos: 'main'
+    apt_include_src: false
