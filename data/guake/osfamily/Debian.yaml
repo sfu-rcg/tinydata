@@ -1,0 +1,3 @@
+---
+  guake::settings:
+    package_name: 'guake'
