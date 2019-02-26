@@ -1,0 +1,5 @@
+---
+  kcachegrind::settings:
+    package_name:
+      - kcachegrind
+      - kcachegrind-converters

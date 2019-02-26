@@ -1,0 +1,3 @@
+---
+  kcachegrind::settings:
+    package_name: 'kcachegrind'
