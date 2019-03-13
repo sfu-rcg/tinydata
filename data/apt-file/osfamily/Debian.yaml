@@ -1,0 +1,3 @@
+---
+  apt-file::settings:
+    package_name: 'apt-file'
