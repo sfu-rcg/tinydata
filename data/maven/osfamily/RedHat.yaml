@@ -1,0 +1,3 @@
+---
+  maven::settings:
+    package_name: 'maven'
