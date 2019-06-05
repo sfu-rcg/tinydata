@@ -1,6 +1,8 @@
 ---
   cuda-libraries-9-0::settings:
-    package_name: 'cuda-libraries-9-0'
+    package_name:
+      - cuda-libraries-9-0
+      - cuda-libraries-9-1
     repo_url: 'http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64'
     key: '7FA2AF80'
     apt_key_server: 'keyserver.ubuntu.com'
