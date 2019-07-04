@@ -1,0 +1,7 @@
+---
+  libglpk::settings:
+    package_name:
+      - glpk-utils
+      - libglpk36
+      - libglpk-dev
+      - libglpk-java
