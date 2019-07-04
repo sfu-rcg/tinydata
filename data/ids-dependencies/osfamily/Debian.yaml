@@ -1,0 +1,16 @@
+---
+  ids-dependencies::settings:
+    package_name:
+      - libpcap0.8
+      - libpcap0.8-dev
+      - libc-ares2
+      - libc-ares-dev
+      - libfixbuf3
+      - libfixbuf3-dev
+      - libgnutls30
+      - libgnutls-dev
+      - libfl-dev
+      - python2.7-dev
+      - flex
+      - libpcap-dev
+      - python-dev
