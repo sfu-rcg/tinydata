@@ -1,0 +1,3 @@
+---
+  libpng16::settings:
+    package_name: 'libpng16'

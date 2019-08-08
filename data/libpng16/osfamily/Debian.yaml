@@ -1,0 +1,6 @@
+---
+  libpng16::settings:
+    package_name:
+      - libpng16-tools
+      - libpng16-dev
+      - libpng16-16
