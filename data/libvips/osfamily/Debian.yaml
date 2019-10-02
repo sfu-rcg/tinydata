@@ -1,0 +1,5 @@
+---
+  libvips::settings:
+    package_name:
+      - libvips
+      - libvips-dev
