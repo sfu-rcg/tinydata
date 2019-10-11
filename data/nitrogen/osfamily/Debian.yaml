@@ -1,0 +1,3 @@
+---
+  nitrogen::settings:
+    package_name: 'nitrogen'
