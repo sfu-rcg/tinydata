@@ -1,0 +1,6 @@
+---
+  dlib::settings:
+    package_name:
+      - libdlib18
+      - libdlib-data
+      - libdlib-dev

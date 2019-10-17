@@ -1,0 +1,3 @@
+---
+  dlib::settings:
+    package_name: 'dlib'
