@@ -3,3 +3,10 @@
     package_name:
       - 'cuda-10-2-runtime'
       - 'cuda-10-2-toolkit'
+    repo_url: 'http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64'
+    key: '7FA2AF80'
+    apt_key_server: 'keyserver.ubuntu.com'
+    apt_key_fingerprint: 'AE09FE4BBD223A84B2CCFCE3F60F4B3D7FA2AF80'
+    apt_release: '/'
+    apt_repos: ''
+    apt_include_src: false
