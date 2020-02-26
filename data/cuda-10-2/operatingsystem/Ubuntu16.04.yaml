@@ -1,0 +1,5 @@
+---
+  cuda-10-2::settings:
+    package_name:
+      - 'cuda-10-2-runtime'
+      - 'cuda-10-2-toolkit'

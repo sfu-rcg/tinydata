@@ -1,0 +1,6 @@
+---
+  cuda-10-2::settings:
+    package_name: 'cuda-10-2'
+    repo_url: 'http://developer.download.nvidia.com/compute/cuda/repos/rhel7/x86_64'
+    key: '7FA2AF80'
+    key_url: 'http://developer.download.nvidia.com/compute/cuda/repos/rhel7/x86_64/7fa2af80.pub'
