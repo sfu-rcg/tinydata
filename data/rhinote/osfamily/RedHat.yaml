@@ -1,0 +1,3 @@
+---
+  rhinote::settings:
+    package_name: 'rhinote'

@@ -1,0 +1,3 @@
+---
+  xpad::settings:
+    package_name: 'xpad'
