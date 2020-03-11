@@ -1,0 +1,3 @@
+---
+  hugin::settings:
+    package_name: 'hugin'
